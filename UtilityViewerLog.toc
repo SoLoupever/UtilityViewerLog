@@ -1,0 +1,32 @@
+## Interface: 120105, 16001
+## AllowLoadGameType: standard, camelot
+## Title: UtilityViewerLog
+## Notes: Modular utilities: raid group, durability, healer mana bars, quest automation
+## Notes-frFR: Utilitaires modulaires : groupe de raid, durabilité, mana des soigneurs, automatisation des quêtes
+## Author: Soloup_ever
+## Version: 0.2
+## SavedVariables: UtilityViewerLogDB
+## IconTexture: Interface\AddOns\UtilityViewerLog\Media\UVL_Logo
+
+## X-Curse-Project-ID: 1742135
+## X-Wago-ID: ZKxO8Q6k
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+libs\LibEditMode\embed.xml
+
+Locales\enUS.lua
+Locales\frFR.lua
+
+Core\Core.lua
+Core\Settings.lua
+Core\Frames.lua
+Core\ConfigUI.lua
+
+Modules\RaidGroup.lua
+Modules\Durability.lua
+Modules\HealerMana.lua
+Modules\AutoQuest.lua
+Modules\General.lua
